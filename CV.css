@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    margin-left: 15%;
+}   
+
+.header > .image {
+    padding: 50px;
+}
+
+.header > .name {
+    padding: 50px;
+}
+
+.header > .name > h1 {
+    font-size: 60px;
+    border-bottom: 4px solid;
+    padding-bottom: 20px;
+}
+
+.header > .name > h2 {
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+.wa {
+    display: flex
+}
+
+.name > .wa {
+    margin-top: 15%;
+}
+
+.wa > h5 {
+    font-size: 30px;
+    margin-top: 4%;
+}
+
+.wa > img {
+    padding-right: 20px;
+}
+
+.about {
+    margin-top: 5%;
+}
+
+.about > p {
+    font-size: 45px;
+    margin-left: 18%;
+}
+
+.desc {
+    margin-top: 1%;
+}
+
+.desc > p {
+    font-size: 200%;
+    margin-left: 18%;
+}
+
+
+.pengalamanpendidikan {
+    display: flex;
+    margin-top: 7%;
+    margin-left: 18%;
+    padding-bottom: 15px;
+    border-bottom: 4px solid;
+}
+
+.pengalamanpendidikan > .pengalaman {
+    padding-right: 700px;
+}
+
+.isi > .pengalaman1 > ul > li {
+    font-size: 25px; 
+}
+
+.isi > .pengalaman1 {
+    padding-right: 19%;
+}
+
+.isi > .pendidikan1 > ul > li {
+    font-size: 25px;
+}
+
+.isi {
+    display: flex;
+    margin-left: 19%;
+    margin-top: 2%;
+}
+
+.isi1 {
+    display: flex;
+    margin-left: 18%;
+}
+
+.isi1 > .certificate {
+    padding-right: 700px;
+}
+
+.isi1 > .certificate {
+    margin-top: 10%;
+}
+
+.end {
+    display: flex;
+    margin-left: 19%;
+}
+
+.end > .certificate1 {
+    padding-right:  450px;
+}
+
+.certificate1 {
+    margin-top: 2%;
+}
+
+.certificate1 > ul > li {
+    font-size: 25px;
+    margin-bottom: 3%;
+}
+
+.keahlian1 {
+    margin-top: -120px;
+}
+
+.keahlian1 > ul > li {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.language > h1 {
+    margin-left: 18%;
+    border-bottom: 1px solid;
+    padding-bottom: 15px;
+}
+
+.language1 {
+    margin-top: 1%;
+}
+
+.language1 > ul > li {
+    margin-left: 19%;
+    font-size: 25px;
+}
+
+.back {
+    margin-left: 80%;
+    padding: 50px;
+}
+
+.back > a >button {
+    padding: 40px;
+    border-radius: 20px;
+    background-color: #738586;
+    font-size: 20px;
+}
+
+
+.back > a > button:hover {
+    color: aqua;
+}
+
+.back > a > button:hover {
+    transition: ease-in-out all 0.3s;
+    border: 3px solid #d9d9d9;
+    box-shadow:  15px 20px rgb(0, 0, 0,0.10) ;
+}

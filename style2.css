@@ -1,0 +1,440 @@
+    *{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+   background-color: aliceblue;
+   padding: 20px;
+}
+
+header > nav > p > a {
+    font-size: 30px;
+    text-decoration: none;
+    color: lightblue;
+}
+
+header > nav > p {
+    padding: 20px;
+}
+
+header > nav > p > a:hover {
+    color: bisque;
+}
+
+header > nav > a {
+    text-decoration: none;
+    padding: 25px;
+    font-size: 20px;
+    padding-left: 10%;
+    color: gray;
+}
+
+header > nav > a:hover {
+    color: crimson;
+}
+
+header > nav {
+    display: flex;    
+}
+
+
+.penjelasan {
+    display: flex;
+}
+
+.penjelasan > .foto > img {
+    margin-left: 70%;
+}
+
+
+.name > p {
+    font-size: 35px;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.perkenalan > p {
+    margin-left: 5%;
+    font-size: 45px;
+}
+
+.foto {
+    margin-left: 65%;
+}
+
+.penjelasan > p {
+    margin-left: 5%;
+    font-size: 20px;
+}
+
+.button {
+    display: flex;
+    margin-left: 4%;
+}
+
+.button {
+    margin-top: 2%;
+}
+
+.button > .ntp {
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+.button > .ntp > a > button {
+    border: 0;
+    background-color: white;
+}
+
+.button > .ntp > a {
+    padding-right: 50px;
+}
+
+.button > a {
+    padding: 20px;
+}
+
+.button > a > button {
+    padding: 35px;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
+.button > a > button:hover {
+    color: aqua;
+}
+
+.tab2 > p {
+    margin-left: 5%;
+    font-size: 50px;
+}
+
+.tab2 {
+    margin-top: 10%;
+}
+
+.project {
+    margin-top: 5%;
+}
+
+
+.project > img {
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.project > .lane1 {
+    display: flex;
+    margin-left: 5%;
+}
+
+
+.project > .lane2 {
+    display: flex;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.lane1 > img {
+    margin-right: 10%;
+}
+
+.lane2 > img {
+    margin-right: 10%;
+}
+
+.sertificate > p {
+    font-size: 45px;
+    margin-left: 5%;
+}
+
+.sertificate {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.sertificate > p {
+    font-size: 60px;
+}
+
+  
+.whm > p {
+    font-size: 60px;
+    text-align: center;
+}
+
+.whm {
+    margin-top: 50%;
+}
+
+.imek {
+    margin-top: 7%;
+    display: flex;
+}
+
+.img {
+    margin-left: 6%;
+    border: 1px solid;
+    padding: 50px;
+    border-radius: 20px;
+}   
+
+.img:hover {
+    transition: ease-in-out all 0.3s;
+    border: 3px solid #738586;
+    box-shadow:  15px 20px rgb(0, 0, 0,0.10) ;
+}
+
+.text {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20%;
+}
+
+
+.tols {
+    margin-top: 20%;
+}
+
+.tols > p {
+    font-size: 60px;
+    text-align: center ;
+}
+
+.border {
+    border: 5px solid;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.imgtols{
+    margin-left: 13%;
+}
+
+.imgtols {
+    margin-top: 5%;
+}
+
+.imgtols > img {
+    margin-left: 6%;
+    padding: 50px;
+}
+
+.megaborder {
+    margin-top: 20%;
+    
+}
+
+.megaborder > .skillpersen > h1 {
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 70px;
+}
+
+.border4 {
+    border:  3px solid;
+    padding-bottom: 80px;
+    margin-bottom: 3%;
+    border-radius: 15px;
+}
+
+.border1 {
+    border:  3px solid;
+    padding-bottom: 80px;
+    margin-bottom: 3%;
+    border-radius: 15px;
+}
+
+.border2 {
+    border:  3px solid;
+    padding-bottom: 80px;
+    border-radius: 15px;
+    margin-bottom: 3%;
+}
+
+.border3 {
+    border:  3px solid;
+    padding-bottom: 80px;
+    border-radius: 15px;
+    margin-bottom: 3%;
+}
+
+
+.border5 {
+    border:  3px solid;
+    padding-bottom: 80px;
+    border-radius: 15px;
+}
+
+.skill > p > b{
+    border-bottom: 8px solid red;
+    border-radius: 3px;
+}
+
+.skill1 > p > b{
+    border-bottom: 8px solid red;
+    border-radius: 3px;
+}
+.skill2 > p > b{
+    border-bottom: 8px solid red;
+    border-radius: 3px;
+}
+.skill3 > p > b{
+    border-bottom: 8px solid red;
+    border-radius: 3px;
+}
+.skill4 > p > b{
+    border-bottom: 8px solid red ;
+    border-radius: 3px;
+}
+.skill5 > p > b{
+    border-bottom: 8px solid red   ;
+    border-radius: 3px;
+}
+
+
+.animati > .skill {
+    background: aquamarine;
+    margin-top: 5%;
+    width: 150px;
+    height: 120px;
+    margin-left: 2%;
+    border-radius: 15px;
+    transition: width 1s;
+    transition-delay: 1s;
+}
+
+
+.animati > .skill:hover {
+    width: 1500px;
+}
+
+.animati > .skill > p {
+    padding: 50px;
+}
+
+
+.animati1 > .skill1 {
+    background: aquamarine;
+    margin-top: 5%;
+    width: 150px;
+    height: 120px;
+    margin-left: 2%;
+    border-radius: 15px;
+    transition: width 1s;
+    transition-delay: 1s;
+}
+
+
+.animati1 > .skill1:hover {
+    width: 1400px;
+}
+
+.animati1 > .skill1 > p {
+    padding: 50px;
+}
+.animati2 > .skill2 {
+    background: aquamarine;
+    margin-top: 5%;
+    width: 150px;
+    height: 120px;
+    margin-left: 2%;
+    border-radius: 15px;
+    transition: width 1s;
+    transition-delay: 1s;
+}
+
+
+.animati2 > .skill2:hover {
+    width: 1200px;
+}
+
+.animati2 > .skill2 > p {
+    padding: 50px;
+}
+
+
+.animati3 > .skill3 {
+    background: aquamarine;
+    margin-top: 5%;
+    width: 150px;
+    height: 120px;
+    margin-left: 2%;
+    border-radius: 15px;
+    transition: width 1s;
+    transition-delay: 1s;
+}
+
+
+.animati3 > .skill3:hover {
+    width: 950px;
+}
+
+.animati3 > .skill3 > p {
+    padding: 50px;
+}
+
+.animati5 > .skill5 {
+    background: aquamarine;
+    margin-top: 5%;
+    width: 150px;
+    height: 120px;
+    margin-left: 2%;
+    border-radius: 15px;
+    transition: width 1s;
+    transition-delay: 1s;
+}
+
+
+.animati5 > .skill5:hover {
+    width: 500px;
+}
+
+.animati5 > .skill5 > p {
+    padding: 50px;
+}
+
+
+.maqu {
+    margin-top: 10%;
+}
+
+.maqu > marquee {
+    background-color: #738586;
+}
+
+.maqu > marquee > h1 {
+    font-size: 50px;
+    padding: 50px;
+}
+
+
+.cpyrek > .brut {
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    margin-top: 25%;
+}
+
+.cpyrek > .brut > p {
+    font-size: 30px;
+    margin-top: 8%;
+}
+
+.cpyrek > .brut > p:hover {
+    border-bottom: 15px solid;
+    border-radius: 7px;
+    font-size: 30px;
+    margin-top: 8%;
+    transition: ease-in-out 0.5s;
+}
+
+.cpyrek > .brut > p > b:hover {
+    color: whitesmoke;
+}
+
